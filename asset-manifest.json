@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4d89a7a.chunk.css",
+    "main.js": "/static/js/main.75852e14.chunk.js",
+    "main.js.map": "/static/js/main.75852e14.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.41256360.js",
+    "runtime-main.js.map": "/static/js/runtime-main.41256360.js.map",
+    "static/js/2.5a87c93c.chunk.js": "/static/js/2.5a87c93c.chunk.js",
+    "static/js/2.5a87c93c.chunk.js.map": "/static/js/2.5a87c93c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.17c62ba4f384ef96e55731587e06feee.js": "/precache-manifest.17c62ba4f384ef96e55731587e06feee.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e4d89a7a.chunk.css.map": "/static/css/main.e4d89a7a.chunk.css.map",
+    "static/media/Logo.module.scss": "/static/media/third-block-bg-768x878.0d709404.jpg",
+    "static/media/Info.module.scss": "/static/media/bg-desktop.995bd2b4.jpg",
+    "static/media/SignUpForm.module.scss": "/static/media/caret-down.120ef998.svg",
+    "static/media/css.svg": "/static/media/css.29637879.svg",
+    "static/media/html.svg": "/static/media/html.d882d855.svg",
+    "static/media/javascript.svg": "/static/media/javascript.cf53a810.svg",
+    "static/media/line-menu.svg": "/static/media/line-menu.3b500131.svg",
+    "static/media/logo.svg": "/static/media/logo.10919850.svg",
+    "static/media/man-mobile.svg": "/static/media/man-mobile.2afa7771.svg",
+    "static/media/Requirements.module.scss": "/static/media/third-block-bg-1024x755.1ad62185.jpg"
+  }
+}
