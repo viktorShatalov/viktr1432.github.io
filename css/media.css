@@ -143,14 +143,73 @@
 }
 /* _________________________________________mobile_________________________________________ */
 @media(max-width:650px){
-.description-rigth{
-    display: none;
-    }
-}
-@media(max-width:410px){
     body{
         overflow-x: hidden;
     }
+    .description-rigth{
+        display: none;
+    }
+}
+@media(max-width:475px){
+    html{
+        overflow-x: hidden;
+    }
+    .description-rigth{
+        display: none;
+    }
+    .slider-description h1{
+        font-size: 1.25rem;
+        line-height: 45px;
+        text-align: center;
+    }
+    .slider-description strong{
+        font-size: 1.5rem;
+    }
+    .burger-menu{
+        left: 215%;
+    }
+    .product-slider{
+        max-width: 435px;
+    }
+    .product_items{
+        max-width: 245px;
+    }
+    .product-slider_items{
+        max-width: 245px;
+        margin: 0 auto 51px;
+    }
+    .description-left{
+        margin: 25px auto;
+        max-width: 350px;
+    }
+    .showMore-items{
+        display: block;
+        margin: 0 95px;
+    }
+    .showMore{
+        margin: 0;
+    }
+    .footer-items{
+        padding: 3px 0px 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+    .footer-search{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-subscription{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+@media(max-width:410px){
+  
     .header-menu_items{
         margin: 0 40px 0 0;
     }
@@ -292,6 +351,22 @@
     .burger-menu{
         left: 60px;
     }
+    .product-slider{
+        margin: 0 25px;
+    }
+    .product-slider_items{
+        max-width: 245px;
+        margin: 0 auto 51px;
+    }
+    .product_items{
+        max-width: 245px;
+    }
+    .product-item{
+        padding: 55px 0px 51px;
+    }
+    .product-item img{
+        margin: 0 45px;
+    }
     .search input[type="text"]{
         margin: 0 75px 20px;
     }
@@ -302,11 +377,15 @@
         margin: 0 auto;
     }
 }
-@media(max-width:320px){
+@media(max-width: 320px){
     .burger-menu{
         left: 0px;
     }
     .search input[type="text"]{
         margin: 0 50px 20px;
+    }
+    .product-slider_items{
+        max-width: 245px;
+        margin: 0 0 51px;
     }
 }
