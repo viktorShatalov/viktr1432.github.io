@@ -16,10 +16,19 @@ $('.product-slider_items').slick({
             }
         },
         {
-            breakpoint: 510,
+            breakpoint: 420,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                arrows: false,
+            }
+        },
+        {
+            breakpoint: 375,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
             }
         },
         {
@@ -27,13 +36,14 @@ $('.product-slider_items').slick({
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                arrows: false,
             }
         }
     ]
 });
 // menu -mobile
-$(document).ready(function(){
-    $('.burger-menu').click(function(){
+$(document).ready(function () {
+    $('.burger-menu').click(function () {
         $('.burger-menu,.header-menu').toggleClass('active');
         $('body').toggleClass('lock');
     })

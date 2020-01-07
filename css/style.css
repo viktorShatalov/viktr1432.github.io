@@ -491,7 +491,10 @@ ul li{
     padding: 23px 0 0;
     background-color: rgba(0, 0, 0, 0.2);
 }
-.news-heading h2{
+.news-heading h2,
+.ourOffers-heading h2,
+.photogaleryPage-heading h2,
+.cardProduct-heading h2{
     text-align: center;
     display: block;
     width: 200px;
@@ -587,6 +590,9 @@ ul li{
     padding: 0;
     font-family: initial;
 }
+.pagination{
+    margin: 0 auto;
+}
 .pagination ul{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -605,4 +611,213 @@ ul li{
 }
 .pagination ul li a:hover{
     background-color: #85a712;
+}
+
+/* ourOffers-heading - Page */
+
+.ourOffers-heading h2{
+    width: 340px;
+}
+.ourOffers_items a{
+    margin: 0 auto 14px;
+}
+
+.ourOffers_items{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto 51px;
+}
+.ourOffers-product-item img{
+    width: 211px;
+    margin: -13px auto 0;
+}
+.ourOffers-product-item{
+    position: relative;
+    text-align: center;
+    padding: 55px 10px 0;
+}
+
+.ourOffers-item-price{
+    width: 70px;
+    height: 70px;
+    background-color: #85a712;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    z-index: 2;
+}
+.ourOffers-item-price p{
+    font-size: 0.75rem;
+    padding: 23px 0 0 5px;
+}
+.ourOffers-item-price span{
+    font-size: 1.75rem;
+    padding: 0 3px 0 0;
+}
+.ourOffers-item-description{
+    position: absolute;
+    bottom: 0px;
+    left: 9px;
+    background-color: #161012c4;
+    width: 93%;
+    height: 65px;
+}
+.ourOffers-item-description p{
+    font-size: 0.9rem;
+    font-weight: normal;
+    margin: 0 auto;
+    padding: 7px 30px 0px;
+    line-height: 17px;
+}
+.ourOffers-item-description_hover{
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 9px;
+    background-color: #161012c4;
+    width: 93%;
+    height: 86%;
+    text-align: center;
+    -webkit-animation: chenge-ourOffers-block .9s ease-out;
+            animation: chenge-ourOffers-block .9s ease-out;
+}
+@-webkit-keyframes chenge-ourOffers-block{
+    0%{
+        -webkit-transform: scaleY(-1);
+                transform: scaleY(-1);
+    }
+    100%{
+        -webkit-transform: scaleY(1);
+                transform: scaleY(1);
+    }
+}
+.ourOffers-hover-description_text p{
+    font-size: 0.8rem;
+    font-weight: normal;
+    margin: 20px auto -25px;
+    padding: 0px 0 0px;
+    line-height: 22px;
+    color: #b9bbb1;
+}
+.ourOffers-hover-description{
+    height: auto;
+    width: 180px;
+    border-top: 1px solid #85a712;
+    border-bottom: 1px solid #85a712;
+    margin: 89px auto 0px;
+    padding: 10px 0 12px;
+}
+.ourOffers-hover-description p{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 0;
+}
+.product_items:hover .ourOffers-item-description{
+    display: none;
+}
+.product_items:hover .ourOffers-item-description_hover{
+    display: block;
+}
+/* photogaleryPage */
+.photogaleryPage-heading h2{
+    width: 220px;
+}
+.photogaleryPage{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 16px auto 0;
+}
+.photogaleryPage a{
+    margin: 0 auto;
+}
+.photogaleryPage-product-item{
+    max-width: 205px;
+    background-color: #ffffff;
+    margin: 0 auto 47px;
+}
+.photogaleryPage-product-item img{
+    width: 205px;
+}
+.photogaleryPage-item-description {
+    background-color: #85a712;
+}
+.photogaleryPage-item-description p{
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 0 10px 3px;
+}
+
+/* card-product */
+.cardProduct-description{
+    height: 100%;
+    padding: 52px 0 7px 0;
+}
+.cardProduct-heading h2{
+    width: 320px;
+}
+.cardProduct-item{
+    display: flex;
+}
+.cardProduct-item-left{
+    position: relative;
+}
+.cardProduct-item-left img{
+    margin: 0 0 0 27px;
+}
+.cardProduct-item-left .item-price{
+    right: -28px;
+    top: -17px;
+}
+.cardProduct-item-left .item-price p{
+    padding: 28px 20px 10px;
+}
+.cardProduct-item__right{
+    margin: 0 0 0 25px;
+}
+.cardProduct-item__title h2{
+    margin: -5px 0 0 37px;
+    color: #85a712;
+    font-weight: normal;
+    font-size: 2rem;
+    letter-spacing: -.4px;
+}
+.cardProduct-item__characteristics ul li,
+.cardProduct-other__characteristics ul
+{
+    line-height: 24px;
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+.cardProduct-btn{
+    margin: 0 0 0 39px;
+}
+.cardProduct-btn button{
+    outline: none;
+    border: none;
+    padding: 10px 55px;
+    border-top: 4px solid #ffffff;
+    background-color: #85a712;
+    margin: 2px 0 0 0;
+    transition: .3s;
+}
+.cardProduct-btn button:hover{
+    background-color: #789710;
+}
+.cardProduct-other__characteristics{
+    margin: 43px 0 0 0px;
+}
+.cardProduct-other__characteristics ul{
+    color: #85a712;
+    padding: 0 15px 0 28px;
+}
+.cardProduct-other__characteristics ul li{
+    color: #ffffff;
 }
