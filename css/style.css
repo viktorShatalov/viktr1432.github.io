@@ -764,6 +764,8 @@ ul li{
     width: 320px;
 }
 .cardProduct-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .cardProduct-item-left{
@@ -806,6 +808,8 @@ ul li{
     border-top: 4px solid #ffffff;
     background-color: #85a712;
     margin: 2px 0 0 0;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 .cardProduct-btn button:hover{
